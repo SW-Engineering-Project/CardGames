@@ -30,7 +30,3 @@ public:
 
 #endif
 
-
-hello
-
-
