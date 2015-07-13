@@ -8,11 +8,16 @@ class Player
 
 private:
 	string name;
-	Bank bank;
-	BookDB books;
+	Hand hand;
 
 public:
 	Player();
+	
+friend:
+	void setName();
+	string getName();
+	void getHand();
+	
 }
 
 #endif
